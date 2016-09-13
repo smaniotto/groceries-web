@@ -1,5 +1,5 @@
 {
-  "name": "webapp",
+  "name": "groceries-list",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
@@ -21,5 +21,17 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
-  }
+  },
+  "description": "Groceries List webapp",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smaniotto/groceries-web.git"
+  },
+  "author": "Bernardo Smaniotto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smaniotto/groceries-web/issues"
+  },
+  "homepage": "https://github.com/smaniotto/groceries-web#readme"
 }
