@@ -1,14 +1,16 @@
 import React, {Component} from 'react'
 import {Router, Route} from 'react-router'
 
-import Home from './pages/home'
+import HomePage from './pages/home'
+import AuthPage from './pages/auth'
 
 
 class Routes extends Component {
   render() {
     return (
       <Router history={this.props.history}>
-        <Route path="/" component={Home} />
+        <Route path="/" component={HomePage} />
+        <Route path="/auth" component={AuthPage} />
       </Router>
     )
   }
